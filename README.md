@@ -8,3 +8,4 @@ To minimize system performance impact from a continously running script, a sleep
 
 ## Windows Scheduler
 windows_scheduler.bat provides a way to setup and run on start of the machine the RDPLogger schedule task as long as the RDPLogger is placed in "C:\log\scripts\RDPLogger.ps1"
+Assumes this .bat is being run on an Administrator account, otherwise add approperiate credentials.
